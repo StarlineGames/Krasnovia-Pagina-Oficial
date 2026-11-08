@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krasnovia — Красновя</title>
+<meta name="description" content="Krasnovia: país ficticio de Minecraft. Historia, símbolos, idioma e himno.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f1ee; --surface:#ffffff; --ink:#1d2330; --muted:#566074;
+  --blue:#0a5aba; --granate:#760a17; --gold:#b97f00; --line:#d9d3cc; --hero:#14243d;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#10141d; --surface:#181e2b; --ink:#ece8e1; --muted:#a3acbd;
+    --blue:#6aa6f0; --granate:#d9677a; --gold:#f0b43a; --line:#2c3446; --hero:#0b1424;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.7 "Source Serif 4",Georgia,serif}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;line-height:1.15;margin:0 0 .5em}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+nav{background:var(--hero);position:sticky;top:0;z-index:5;overflow-x:auto;white-space:nowrap}
+nav .wrap{display:flex;gap:22px;padding-top:12px;padding-bottom:12px}
+nav a{color:#e9dfc8;text-decoration:none;font-size:16px}
+nav a:hover{color:#f0b43a}
+header{background:var(--hero);color:#f4ecd9;text-align:center;padding:64px 22px 0}
+header .stripes{height:34px;margin-top:56px;background:linear-gradient(#0a5aba 33.3%,#fff 33.3% 66.6%,#760a17 66.6%)}
+header img{width:min(150px,38vw);height:auto}
+h1{font-size:clamp(46px,10vw,92px);font-weight:800;letter-spacing:.02em;margin:18px 0 0}
+.native{font-family:"Playfair Display",serif;font-size:clamp(22px,4vw,32px);color:#f0b43a;margin:0 0 18px}
+.lema{max-width:560px;margin:0 auto;font-style:italic;color:#e1d8c3}
+section{padding:68px 0 10px}
+h2{font-size:clamp(30px,5vw,42px);border-bottom:3px solid var(--granate);display:inline-block;padding-bottom:6px}
+.era{display:grid;gap:16px;margin-top:22px}
+@media(min-width:720px){.era{grid-template-columns:repeat(3,1fr)}}
+.era div{background:var(--surface);border-top:6px solid var(--c);padding:20px}
+.era h3{font-size:22px}
+.era p{margin:0;color:var(--muted);font-size:16px;line-height:1.6}
+.sym{display:grid;gap:26px;align-items:center;margin-top:20px}
+@media(min-width:720px){.sym{grid-template-columns:1fr 1fr}}
+.sym img{width:100%;height:auto;display:block;border:1px solid var(--line);background:#fff}
+figcaption{font-size:15px;color:var(--muted);margin-top:8px}
+figure{margin:0}
+.valores{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0;padding:0;list-style:none}
+.valores li{background:var(--surface);border:1px solid var(--line);padding:6px 14px;font-size:16px}
+.himno{background:var(--surface);border-left:6px solid var(--gold);padding:10px 26px 22px;margin-top:20px}
+.himno h3{margin-top:22px;font-size:20px;color:var(--granate)}
+.himno .kr{font-size:20px;font-weight:600;margin:0}
+.himno .es{color:var(--muted);font-size:16px;margin:8px 0 0}
+.musica{margin-top:20px;color:var(--muted);font-size:16px}
+.mapa img{width:100%;max-width:420px;height:auto;display:block;border:1px solid var(--line)}
+footer{margin-top:70px;background:var(--hero);color:#cfc6b2;text-align:center;padding:34px 22px;font-size:15px}
+footer p{margin:4px 0}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="escudo.png" alt="Escudo de Krasnovia">
+  <h1>Krasnovia</h1>
+  <p class="native">Красновя</p>
+  <p class="lema">El estado sirve al pueblo, el pueblo hace al estado.</p>
+  <div class="stripes" role="presentation"></div>
+</header>
+
+<nav aria-label="Secciones"><div class="wrap">
+  <a href="#historia">Historia</a><a href="#simbolos">Símbolos</a><a href="#himno">Himno</a><a href="#idioma">Idioma</a><a href="#rewind">Krasnovia Rewind</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="historia">
+  <h2>Historia</h2>
+  <p>Krasnovia es una nación de un universo alternativo cuya lengua se habla desde el 760 a.C. Su historia está escrita en su arquitectura: cada época dejó su estilo, y las tres conviven en el mapa.</p>
+  <div class="era">
+    <div style="--c:#b97f00"><h3>Zarismo</h3><p>Monarquía imperial. Estilo victoriano: palacios, catedrales, estaciones de tren y farolas de hierro.</p></div>
+    <div style="--c:#760a17"><h3>República Socialista</h3><p>Estado socialista. Estilo soviético: bloques de departamentos, fábricas, monumentos y plazas amplias.</p></div>
+    <div style="--c:#0a5aba"><h3>República actual</h3><p>República de orientación derechista que conserva el valor central de su historia: el pueblo es el pilar de la sociedad. Estilo moderno.</p></div>
+  </div>
+</section>
+
+<section id="simbolos">
+  <h2>Símbolos nacionales</h2>
+  <div class="sym">
+    <figure><img src="bandera.png" alt="Bandera de Krasnovia: franjas azul, blanca y granate con un sol dorado y una cruz ortodoxa"><figcaption>Bandera: franjas azul, blanca y granate, con un sol dorado de 16 puntas, la cruz ortodoxa y ramas de laurel.</figcaption></figure>
+    <figure><img src="escudo.png" alt="Escudo de Krasnovia con Cristo, corona de laurel y dos ángeles"><figcaption>Escudo: Cristo rodeado de laurel, sostenido por dos ángeles. Lema: <b>Христос победуе</b> (Cristo vence).</figcaption></figure>
+  </div>
+  <ul class="valores">
+    <li><b>Иновация</b> · Innovación</li>
+    <li><b>Единство</b> · Unión</li>
+    <li><b>Храброство</b> · Valentía</li>
+  </ul>
+</section>
+
+<section id="himno">
+  <h2>Himno nacional</h2>
+  <p>Escrito en krasnoviano, con su traducción al español. Versión provisional.</p>
+  <div class="himno">
+    <h3>Estrofa I</h3>
+    <p class="kr">Ґурӓ висока, земля наша,<br>в срце на народ сияе солнце.<br>Ми идемо към зора ясна,<br>Ми есмо Красновя!</p>
+    <p class="es">Montaña alta, tierra nuestra, en el corazón del pueblo brilla el sol. Vamos hacia el alba clara, ¡somos Krasnovia!</p>
+
+    <h3>Estribillo</h3>
+    <p class="kr">Държава служи народ,<br>народ твори държаву!<br>Красновя, Красновя, наш дом, наша слава!</p>
+    <p class="es">¡El estado sirve al pueblo, el pueblo hace al estado! Krasnovia, Krasnovia, nuestro hogar, nuestra gloria.</p>
+
+    <h3>Estrofa II</h3>
+    <p class="kr">Бил цар в палата, била звезда в завод,<br>но всегда бил народ стълп на земля.<br>Времена били, бори били,<br>народ остал!</p>
+    <p class="es">Hubo un zar en el palacio, hubo una estrella en la fábrica, pero siempre el pueblo fue el pilar de la tierra. Hubo tiempos, hubo luchas, ¡el pueblo permaneció!</p>
+
+    <h3>Estrofa III</h3>
+    <p class="kr">Ми будемо стълп, ми будемо мост,<br>ми идемо към утро, ми не идемо сами.<br>Под горой, в град, на повърхност,<br>ми есмо народ!</p>
+    <p class="es">Seremos pilar, seremos puente, vamos hacia la mañana, no vamos solos. Bajo la montaña, en la ciudad, en la superficie, ¡somos el pueblo!</p>
+  </div>
+  <p class="musica">Música prevista: compás de 3/4 en tonalidad mayor, como un vals solemne que recuerda la herencia victoriana.</p>
+</section>
+
+<section id="idioma">
+  <h2>El idioma krasnoviano</h2>
+  <p>El <i>krasnoviano</i> (красновянски) es la lengua oficial, con raíz eslava y rasgos propios del aislamiento alpino. Se escribe en un alfabeto cirílico adaptado de 32 letras, más las vocales alpinas <b>ӓ ӧ ӱ</b>. Su orden básico es sujeto, verbo y objeto, y la negación <i>ne</i> va antes del verbo.</p>
+</section>
+
+<section id="rewind" class="mapa">
+  <h2>Krasnovia Rewind</h2>
+  <p>El proyecto para reconstruir el país en un servidor de Minecraft, esta vez con mejor organización. Aquí está el mapa de la semilla del mundo.</p>
+  <img src="mapa.jpg" alt="Mapa del mundo de Minecraft donde se construirá Krasnovia">
+</section>
+
+</main>
+
+<footer>
+  <p>Krasnovia es un país ficticio creado para Minecraft.</p>
+  <p>Síguenos en TikTok: <!-- cambia este enlace por el tuyo --><a href="https://www.tiktok.com/" style="color:#f0b43a">tu cuenta</a></p>
+</footer>
+
+</body>
+</html>

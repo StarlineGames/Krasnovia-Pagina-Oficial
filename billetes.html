@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billetes — Krasnovia</title>
+<meta name="description" content="Los billetes del Rublo Krasnoviano.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f1ee;--surface:#fff;--ink:#1d2330;--muted:#566074;--blue:#0a5aba;--granate:#760a17;--gold:#b97f00;--line:#d9d3cc;--hero:#14243d}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#10141d;--surface:#181e2b;--ink:#ece8e1;--muted:#a3acbd;--blue:#6aa6f0;--granate:#d9677a;--gold:#f0b43a;--line:#2c3446;--hero:#0b1424}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.7 "Source Serif 4",Georgia,serif}
+h1{font-family:"Playfair Display",Georgia,serif;line-height:1.2}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+header{background:var(--hero);color:#f4ecd9;text-align:center;padding:40px 22px 0}
+header a{color:#f0b43a;font-size:16px}
+header h1{font-size:clamp(30px,6vw,52px);margin:14px 0 6px}
+header p{margin:0 auto 26px;max-width:560px;color:#e1d8c3;font-style:italic}
+.stripes{height:30px;background:linear-gradient(#0a5aba 33.3%,#fff 33.3% 66.6%,#760a17 66.6%)}
+.grid{display:grid;gap:26px;margin-top:30px}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);padding:14px}
+img{width:100%;height:auto;display:block}
+figcaption{font-size:16px;color:var(--muted);margin-top:8px}
+figcaption b{color:var(--granate)}
+footer{margin-top:60px;background:var(--hero);color:#cfc6b2;text-align:center;padding:30px 22px;font-size:15px}
+footer a{color:#f0b43a}
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html">← Volver a Krasnovia</a>
+  <h1>Billetes</h1>
+  <p>El Rublo Krasnoviano (₭), emitido por el Banco Central. Cada billete representa una época de la historia del país.</p>
+  <div class="stripes" role="presentation"></div>
+</header>
+<main class="wrap"><div class="grid">
+<figure><img src="billetes/billete-5.svg" alt="Billete de 5 rublos krasnovianos: Círculos de piedra de la Cumbre del Alba" loading="lazy"><figcaption><b>5 ₭</b> · Pueblos de la Ğurä — Círculos de piedra de la Cumbre del Alba. Color: verde.</figcaption></figure>
+<figure><img src="billetes/billete-10.svg" alt="Billete de 10 rublos krasnovianos: Madre Ostoja y el Monasterio de la Zora" loading="lazy"><figcaption><b>10 ₭</b> · Principados de los Ríos — Madre Ostoja y el Monasterio de la Zora. Color: rosa.</figcaption></figure>
+<figure><img src="billetes/billete-20.svg" alt="Billete de 20 rublos krasnovianos: Radomir I, el Pacto de los Ríos y Sinigrad" loading="lazy"><figcaption><b>20 ₭</b> · El Zarato — Radomir I, el Pacto de los Ríos y Sinigrad. Color: azul.</figcaption></figure>
+<figure><img src="billetes/billete-50.svg" alt="Billete de 50 rublos krasnovianos: Veselin III el Constructor y la Gran Estación" loading="lazy"><figcaption><b>50 ₭</b> · Época victoriana — Veselin III el Constructor y la Gran Estación. Color: dorado.</figcaption></figure>
+<figure><img src="billetes/billete-100.svg" alt="Billete de 100 rublos krasnovianos: Milena Vasić y la Gran Plaza del Pueblo" loading="lazy"><figcaption><b>100 ₭</b> · República Socialista — Milena Vasić y la Gran Plaza del Pueblo. Color: granate.</figcaption></figure>
+<figure><img src="billetes/billete-200.svg" alt="Billete de 200 rublos krasnovianos: El Parlamento y la Constitución de 2026" loading="lazy"><figcaption><b>200 ₭</b> · República actual — El Parlamento y la Constitución de 2026. Color: azul oscuro.</figcaption></figure>
+</div></main>
+<footer><p><a href="index.html">Volver a Krasnovia</a> · <a href="constitucion.html">Constitución</a></p><p>Krasnovia es un país ficticio creado para Minecraft.</p></footer>
+</body>
+</html>
